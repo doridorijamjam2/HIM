@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_part_border">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/imgPart1"
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:src="@drawable/part1"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:text="가슴"
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/layPart1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_part_selector"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:background="@drawable/layout_part_border">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/imgPart2"
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:src="@drawable/part2"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:text="하체"
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/layPart2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_part_selector"
+                />
+
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center_horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_part_border">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/imgPart3"
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:src="@drawable/part3"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:text="등"
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/layPart3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_part_selector"
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:background="@drawable/layout_part_border">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp">
+
+                <ImageView
+                    android:id="@+id/imgPart4"
+                    android:layout_width="104dp"
+                    android:layout_height="104dp"
+                    android:src="@drawable/part4"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:text="어깨"
+                    />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/layPart4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/button_part_selector"
+                />
+
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

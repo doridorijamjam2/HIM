@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HIM</string>
+
+    <!--    디자인할때 표시할 디폴트 글자    -->
+    <string name="default_text">-</string>
+
+    <!--    Activity    -->
+    <string name="activity_title_login">로그인</string>
+
+    <!--    Menu    -->
+    <string name="menu_logout">로그아웃</string>
+
+    <!--    Message    -->
+    <string name="msg_back_press_end">\'뒤로\' 버튼을 한번 더 누르면 종료됩니다.</string>
+    <string name="msg_user_id_check_empty">아이디를 입력하세요.</string>
+    <string name="msg_password_check_empty">비밀번호를 입력하세요.</string>
+    <string name="msg_login_user_none">등록된 회원이 없습니다.</string>
+    <string name="msg_login_password_wrong">비밀번호가 틀립니다.</string>
+    <string name="msg_use_time_check_empty">사용시간을 입력하세요.</string>
+    <string name="msg_error">일시적인 장애가 발생했습니다.</string>
+
+    <!--    Dialog    -->
+    <string name="dialog_title_logout">로그아웃</string>
+    <string name="dialog_msg_logout">로그아웃 하시겠습니까?</string>
+    <string name="dialog_ok">확인</string>
+    <string name="dialog_cancel">취소</string>
+</resources>

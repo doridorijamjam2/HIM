@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "224357824573",
+    "project_id": "hims-744c0",
+    "storage_bucket": "hims-744c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224357824573:android:a0fdf60c96cb8ce5fe9254",
+        "android_client_info": {
+          "package_name": "com.example.him"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224357824573-nfe9cq6d3k1jg9792seqpub5mlh7k6ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtS0wOisijY56Yc2Ww2-F988Pdco3xzv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224357824573-nfe9cq6d3k1jg9792seqpub5mlh7k6ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
